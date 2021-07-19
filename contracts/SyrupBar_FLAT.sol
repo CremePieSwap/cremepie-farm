@@ -1,3 +1,7 @@
+/**
+ *Submitted for verification at BscScan.com on 2020-09-22
+*/
+
 pragma solidity 0.6.12;
 
 
@@ -1092,7 +1096,7 @@ contract CPIEToken is BEP20('CremePieSwap Token', 'CPIE') {
 }
 
 // SyrupBar with Governance.
-contract SyrupBar is BEP20('SyrupBar Token', 'SYRUP') {
+contract SyrupBar is BEP20('Cream Token', 'CREAM') {
     /// @notice Creates `_amount` token to `_to`. Must only be called by the owner (MasterChef).
     function mint(address _to, uint256 _amount) public onlyOwner {
         _mint(_to, _amount);
